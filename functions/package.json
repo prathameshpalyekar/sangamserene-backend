@@ -1,0 +1,25 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase experimental:functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "camelcase": "^4.1.0",
+    "cors": "^2.8.4",
+    "firebase": "^4.8.1",
+    "firebase-admin": "^6.0.0",
+    "firebase-functions": "^2.0.5",
+    "firebase-tools": "^4.2.1",
+    "glob": "^7.1.2",
+    "js-sha512": "^0.7.1",
+    "moment": "^2.22.2",
+    "nodemailer": "^4.6.8"
+  },
+  "private": true
+}
